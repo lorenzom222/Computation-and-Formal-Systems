@@ -62,7 +62,7 @@ For starters, finite state automata or machines are models that have a fixed num
 A DFA is a finite state machine with an accept state. It has the capabilites of taking inputs and accepting or rejecting them. This accept/recision decision making resulting in the "language of the machine". For example, a DFA that only accepts strings that have two consectutive 1s exist will have a language give as:
 
 ```math
-L_m = {\text{all strings containing } 11}}
+L_m = {\text{all strings containing } 11}
 ```
 
 The Automaton here reconginzes this language. It accepts all the strings in the language and rejects those that are not in the language.
